@@ -7,13 +7,13 @@ export function AboutPage(p) {
     <div className="slideup" style={{ maxWidth: 620, margin: "0 auto" }}>
       <div style={{ textAlign: "center", marginBottom: 36 }}>
         <div style={{ margin: "0 auto 18px", display: "inline-block" }}><Logo s={64} /></div>
-        <h2 style={{ fontSize: 26, fontWeight: 700, letterSpacing: "-.03em" }}>Solar I-V Lab</h2>
+        <h2 style={{ fontSize: 30, fontWeight: 700, letterSpacing: "-.03em" }}><span style={{ background: t.grad, WebkitBackgroundClip: "text", backgroundClip: "text", WebkitTextFillColor: "transparent", color: "transparent" }}>SolarVine</span></h2>
         <p style={{ fontSize: 13, color: t.textM, marginTop: 6 }}>Photovoltaic Characterization &amp; Analysis Suite</p>
       </div>
       <div style={card}>
         <h3 style={{ fontSize: 14, fontWeight: 700, marginBottom: 14, display: "flex", alignItems: "center", gap: 8 }}><Ic.Info s={17} c={t.accent} />How It Works</h3>
         <div style={{ fontSize: 12, color: t.textM, lineHeight: 1.8 }}>
-          <p style={{ marginBottom: 10 }}>Solar I-V Lab processes current-voltage data from photovoltaic cells to extract standard figures of merit for research characterization.</p>
+          <p style={{ marginBottom: 10 }}>SolarVine processes current-voltage data from photovoltaic cells to extract standard figures of merit for research characterization.</p>
           <p style={{ marginBottom: 6 }}>1. <strong style={{ color: t.text }}>Data ingestion</strong> — upload .xlsx/.csv with voltage in column A and one current sweep per following column.</p>
           <p style={{ marginBottom: 6 }}>2. <strong style={{ color: t.text }}>Parameter extraction</strong> — Isc (current at V=0), Voc (the I=0 crossing), Pmax/Vmp/Imp in the power quadrant, FF = Pmax/(Isc·Voc), and slope-based Rs &amp; Rsh.</p>
           <p style={{ marginBottom: 6 }}>3. <strong style={{ color: t.text }}>Efficiency</strong> — cell area and irradiance inputs give η = Pmax/(G·A).</p>

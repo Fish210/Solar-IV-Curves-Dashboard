@@ -1,7 +1,7 @@
-# Solar I-V Lab — Photovoltaic Characterization Suite
+# SolarVine — Photovoltaic Characterization Suite
 
 A lab-grade web application for analysing photovoltaic **current–voltage (I-V)**
-sweeps. Upload measured data, and Solar I-V Lab extracts the standard figures of
+sweeps. Upload measured data, and SolarVine extracts the standard figures of
 merit — short-circuit current (I<sub>sc</sub>), open-circuit voltage
 (V<sub>oc</sub>), maximum power (P<sub>max</sub>), fill factor (FF), series and
 shunt resistance (R<sub>s</sub>, R<sub>sh</sub>) and power-conversion efficiency

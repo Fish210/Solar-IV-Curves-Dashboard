@@ -1,4 +1,4 @@
-# Netlify deployment configuration for Solar I-V Lab.
+# Netlify deployment configuration for SolarVine.
 # Connect this repository in the Netlify dashboard; these settings are applied
 # automatically. The published site is the standard Vite build in dist/.
 

@@ -1,7 +1,7 @@
 /**
  * ivAnalysis.js — Photovoltaic I-V curve parameter extraction.
  *
- * This module is the scientific core of Solar I-V Lab. Every figure of merit
+ * This module is the scientific core of SolarVine. Every figure of merit
  * shown in the UI, written to exports, or quoted by the assistant is computed
  * here. It is intentionally free of any UI/DOM/React dependency so it can be
  * unit-tested in isolation (see ivAnalysis.test.js).

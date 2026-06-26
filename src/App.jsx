@@ -193,7 +193,7 @@ export default function App() {
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <Logo s={sideOpen ? 32 : 26} />
             {sideOpen && <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ fontWeight: 700, fontSize: 12, letterSpacing: "-.01em" }}>Solar I-V Lab</div>
+              <div style={{ fontWeight: 700, fontSize: 12, letterSpacing: "-.01em" }}>SolarVine</div>
               <div className="mono" style={{ fontSize: 8, color: t.textD, letterSpacing: ".18em", marginTop: 1 }}>v3.0.0</div>
             </div>}
           </div>
@@ -264,7 +264,7 @@ export default function App() {
             <div style={{ marginBottom: 20, display: "flex", alignItems: "flex-end", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
               <div>
                 <div className="mono" style={{ fontSize: 9, color: t.textD, letterSpacing: ".18em", fontWeight: 600, marginBottom: 6 }}>SESSION ▸ {new Date().toISOString().slice(0, 10)}</div>
-                <h2 style={{ fontSize: 26, fontWeight: 700, letterSpacing: "-.03em", marginBottom: 5, lineHeight: 1.1 }}>Measurement Dashboard</h2>
+                <h2 style={{ fontSize: 26, fontWeight: 700, letterSpacing: "-.03em", marginBottom: 5, lineHeight: 1.1 }}><span style={{ background: t.grad, WebkitBackgroundClip: "text", backgroundClip: "text", WebkitTextFillColor: "transparent", color: "transparent" }}>Measurement Dashboard</span></h2>
                 <p style={{ fontSize: 12, color: t.textM }}>{ds.name} · {ds.conditions.length} conditions · {(ds.ivData[ds.conditions[0]] || []).length} sweep points per channel</p>
               </div>
               <div className="mono" style={{ display: "flex", gap: 8, fontSize: 9, color: t.textM, letterSpacing: ".06em" }}>

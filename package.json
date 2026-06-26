@@ -3,7 +3,7 @@
   "private": true,
   "version": "3.0.0",
   "type": "module",
-  "description": "Solar I-V Lab — a lab-grade photovoltaic current-voltage (I-V) characterization suite. Extracts Isc, Voc, Pmax, FF, Rs, Rsh and efficiency from measured I-V sweeps.",
+  "description": "SolarVine — a lab-grade photovoltaic current-voltage (I-V) characterization suite. Extracts Isc, Voc, Pmax, FF, Rs, Rsh and efficiency from measured I-V sweeps.",
   "author": "John Myron Uy",
   "license": "MIT",
   "scripts": {
